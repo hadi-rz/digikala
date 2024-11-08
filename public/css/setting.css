@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: iranyekan;
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(../fonts/IRANYekanWeb-Medium.eot);
+  src: url(../fonts/IRANYekanWeb-Medium.ttf);
+  src: url(../fonts/IRANYekanWeb-Medium.woff);
+  src: url(../fonts/IRANYekanWeb-Medium.woff2);
+}
+.wraper {
+  width: 100%;
+}
+:root {
+  --bg-gunmetal-gray: #81858b;
+  --bg-snowflake: #f0f0f1;
+  --bg-wind-chime: #e0e0e2;
+  --bg-gray-web: #62666d;
+}
+.line{
+  width: 1px;
+  height: 24px;
+  display: block;
+  background-color: var(--bg-wind-chime);
+}
+.svg{
+  margin-right: 20px;
+  display: inline-block;
+}

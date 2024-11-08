@@ -1,0 +1,32 @@
+.swiperpage1 {
+  width: 100%;
+  height: 170px;
+  margin: 1px auto;
+  .swiper {
+    width: 100%;
+    height: 100%;
+    .swiper-wrapper {
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & img {
+          display: block;
+          width: 90px;
+          height: 90px;
+          border-radius: 50px;
+          object-fit: cover;
+          border: 3px solid purple;
+        }
+        & p {
+          position: absolute;
+          top: 140px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

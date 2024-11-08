@@ -1,0 +1,42 @@
+.dastehbandipage1 {
+  margin: 10px auto;
+  width: 1100px;
+  height: 150px;
+  display: flex;
+  text-align: center;
+  flex-flow: row;
+  gap: 40px;
+  .dastehmiddle {
+    width: 1335px;
+    height: 370px;
+    & img {
+      width: 100px;
+      height: 100px;
+    }
+    & p {
+        font-size: 12px;
+        color: #0c0c0c;
+    }
+  }
+}
+.dastehbandipage1-2 {
+  margin: 10px auto;
+  width: 1100px;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  flex-flow: row;
+  gap: 40px;
+  .dastehmiddle1 {
+    width: 1335px;
+    height: 370px;
+    & img {
+      width: 100px;
+      height: 100px;
+    }
+    & p {
+        font-size: 12px;
+        color: #0c0c0c;
+    }
+  }
+}

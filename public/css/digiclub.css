@@ -1,0 +1,108 @@
+.digiclub {
+  width: 1340px;
+  height: 90px;
+  background-color: #097b9e;
+  margin: 20px auto;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .imgright {
+    width: 119px;
+    height: 33px;
+    position: absolute;
+    display: flex;
+    right: 45px;
+  }
+  .leftclub {
+    width: 960px;
+    height: 80px;
+    position: absolute;
+    left: 15px;
+    display: flex;
+    flex-flow: row;
+    .imgleft1 {
+      width: 270px;
+      height: 65px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 8px;
+      left: 555px;
+      border-bottom-right-radius: 15px;
+      border-top-right-radius: 15px;
+      display: flex;
+      align-items: center;
+      & img {
+        width: 168px;
+        height: 65px;
+        position: absolute;
+        left: 0px;
+        display: flex;
+      }
+      & p {
+        font-size: 12px;
+        position: absolute;
+        right: 40px;
+      }
+      & h4 {
+        fill: #35a6c8;
+        position: absolute;
+        right: 10px;
+      }
+    }
+    .imgleft2 {
+      width: 270px;
+      height: 65px;
+      background-color: #ffffff;
+      position: absolute;
+      left: 280px;
+      top: 8px;
+      display: flex;
+      align-items: center;
+      & img {
+        width: 168px;
+        height: 65px;
+        position: absolute;
+        left: 0px;
+      }
+      & p {
+        font-size: 12px;
+        position: absolute;
+        right: 40px;
+        display: flex;
+      }
+      & h4 {
+        fill: #35a6c8;
+        position: absolute;
+        right: 10px;
+      }
+    }
+    .imgleft3 {
+      width: 270px;
+      height: 65px;
+      background-color: #ffffff;
+      position: absolute;
+      left: 5px;
+      top: 8px;
+      display: flex;
+      align-items: center;
+      & img {
+        width: 168px;
+        height: 65px;
+        position: absolute;
+        left: 0px;
+      }
+      & p {
+        font-size: 12px;
+        position: absolute;
+        right: 40px;
+      }
+      & h4 {
+        fill: #35a6c8;
+        position: absolute;
+        right: 10px;
+      }
+    }
+  }
+}

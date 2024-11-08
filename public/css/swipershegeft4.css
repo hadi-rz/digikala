@@ -1,0 +1,79 @@
+.swiper4 {
+  width: 100%;
+  height: 440px;
+  background-color: aqua;
+  margin: 25px auto;
+  background-color: #ef3c51;
+  position: relative;
+  & .image4-1 {
+    & img {
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      top: 75px;
+      right: 50px;
+    }
+  }
+  & .image4-2 {
+    & img {
+      width: 145px;
+      height: 145px;
+      position: absolute;
+      bottom: 75px;
+      right: 50px;
+    }
+  }
+  .childswiper4 {
+    width: 100%;
+    height: 100%;
+    .swiper {
+      width: 85%;
+      height: 90%;
+      position: absolute;
+      top: 20px;
+      left: 10px;
+      .swiper-wrapper {
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 10px;
+          & h4 {
+            position: absolute;
+            top: 10px;
+            right: 5px;
+          }
+          & img {
+            display: block;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            position: absolute;
+            top: 30px;
+          }
+          & p {
+            font-size: 13px;
+            text-align: justify;
+            position: absolute;
+            bottom: 150px;
+          }
+          & h5 {
+            position: absolute;
+            bottom: 70px;
+            left: 10px;
+          }
+          & del {
+            color: gray;
+            font-size: 13px;
+            position: absolute;
+            bottom: 50px;
+            left: 10px;
+          }
+        }
+      }
+    }
+  }
+}
